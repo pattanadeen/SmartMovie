@@ -1,26 +1,32 @@
+import json
 import numpy as np
 import pandas as pd
 from scipy.sparse import csr_matrix
-from flask import Flask, request, render_template
+from flask import Response, Flask, request
 import joblib
+from json import dumps
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
 @app.route('/')
 def home():
-    return render_template('index.html')
+    return "<p>Idiot</p>"
 
 @app.route('/predict', methods=['POST'])
 def predict():
     
     # If a form is submitted
     if request.method == "POST":
+
+        print("hello")
         
         # Unpickle classifier
         knn = joblib.load("knn.pkl")
         
         # Get values through input bars
-        movie_name = request.form.get("movie_name")
+        movie_name = request.json.get("movie_name")
         
         movies = pd.read_csv("./data/movies.csv")
         ratings = pd.read_csv("./data/ratings.csv")
@@ -33,7 +39,6 @@ def predict():
         csr_data = csr_matrix(final_dataset.values)
         final_dataset.reset_index(inplace=True)
         movies["title_check"] = movies["title"].str.lower()
-        knn = joblib.load('./model/knn.pkl')
         n_movies_to_reccomend = 5
         movie_list = movies[movies['title_check'].str.contains(movie_name.lower())]  
         if len(movie_list):        
@@ -56,8 +61,12 @@ def predict():
         
     else:
         prediction = ""
-        
-    return render_template("index.html", prediction_text = prediction)
+    
+    json_data = dumps({"predictions": prediction})
+
+    return Response(json_data, mimetype="application/json"), 200
+    # return Response(json_data, mimetype="application/json"), 200
+    # return render_template("index.html", prediction_text = prediction)
 
 if __name__ == "__main__":
     app.run(debug=True)
