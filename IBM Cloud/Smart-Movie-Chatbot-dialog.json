@@ -1,0 +1,2146 @@
+{
+  "intents": [
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "I am out of here"
+        },
+        {
+          "text": "I d like to stop doing this"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "Shut up"
+        },
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "Time to go"
+        }
+      ],
+      "description": "End the conversation."
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "You there"
+        }
+      ],
+      "description": "Greet the bot."
+    },
+    {
+      "intent": "Information_Genre",
+      "examples": [
+        {
+          "text": "What genre is Superman?",
+          "mentions": [
+            {
+              "entity": "movie_name",
+              "location": [
+                14,
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What is a type of The Godfather?",
+          "mentions": [
+            {
+              "entity": "movie_name",
+              "location": [
+                18,
+                31
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What is Pretty Woman genre?",
+          "mentions": [
+            {
+              "entity": "movie_name",
+              "location": [
+                8,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What is the genre of Iron Man?",
+          "mentions": [
+            {
+              "entity": "movie_name",
+              "location": [
+                21,
+                29
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What is the theme of The Wizard of Oz?",
+          "mentions": [
+            {
+              "entity": "movie_name",
+              "location": [
+                21,
+                37
+              ]
+            }
+          ]
+        }
+      ],
+      "description": "give basic info of movies (genre)"
+    },
+    {
+      "intent": "Information_Rating",
+      "examples": [
+        {
+          "text": "How many did people rate for Grindelwald?",
+          "mentions": [
+            {
+              "entity": "movie_name",
+              "location": [
+                29,
+                40
+              ]
+            }
+          ]
+        },
+        {
+          "text": "How much does people rate The Bad Guys?",
+          "mentions": [
+            {
+              "entity": "movie_name",
+              "location": [
+                26,
+                38
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What is the rating of Avengers: Infinity War?"
+        },
+        {
+          "text": "What rate did Jurassic World: Fallen Kingdom got??",
+          "mentions": [
+            {
+              "entity": "movie_name",
+              "location": [
+                14,
+                44
+              ]
+            }
+          ]
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Information_Year",
+      "examples": [
+        {
+          "text": "How old is Conviction now?",
+          "mentions": [
+            {
+              "entity": "movie_name",
+              "location": [
+                11,
+                21
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What year did A Perfect Pairing come out?",
+          "mentions": [
+            {
+              "entity": "movie_name",
+              "location": [
+                14,
+                31
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What year did Iron Man come out?",
+          "mentions": [
+            {
+              "entity": "movie_name",
+              "location": [
+                14,
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What year did Pirate of the Caribbean come out?",
+          "mentions": [
+            {
+              "entity": "movie_name",
+              "location": [
+                14,
+                37
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What year did Top Gun: Maverick come out?",
+          "mentions": [
+            {
+              "entity": "movie_name",
+              "location": [
+                14,
+                31
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What year was Ocean's 8 released?",
+          "mentions": [
+            {
+              "entity": "movie_name",
+              "location": [
+                14,
+                23
+              ]
+            }
+          ]
+        },
+        {
+          "text": "When did 365 Days: This Day come out?",
+          "mentions": [
+            {
+              "entity": "movie_name",
+              "location": [
+                9,
+                27
+              ]
+            }
+          ]
+        },
+        {
+          "text": "When did Spider-Man: Homecoming come out?",
+          "mentions": [
+            {
+              "entity": "movie_name",
+              "location": [
+                19,
+                31
+              ]
+            },
+            {
+              "entity": "movie_name",
+              "location": [
+                15,
+                19
+              ]
+            },
+            {
+              "entity": "movie_name",
+              "location": [
+                9,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "text": "When was Pirates of the Caribbean: Dead Men Tell No Tale be released?"
+        }
+      ],
+      "description": "tell year (since)"
+    },
+    {
+      "intent": "Most_Popular",
+      "examples": [
+        {
+          "text": "Can you give me the most popular movies in 2021?",
+          "mentions": [
+            {
+              "entity": "movie_year",
+              "location": [
+                43,
+                47
+              ]
+            }
+          ]
+        },
+        {
+          "text": "In 2000, what are the most popular movies for kids?",
+          "mentions": [
+            {
+              "entity": "movie_year",
+              "location": [
+                3,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What are the highest rated drama movies in 2020?",
+          "mentions": [
+            {
+              "entity": "movie_year",
+              "location": [
+                43,
+                47
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What are the highest rated movies in 1987?",
+          "mentions": [
+            {
+              "entity": "movie_year",
+              "location": [
+                37,
+                41
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What are the most popular action movies?"
+        },
+        {
+          "text": "What are the most popular movies in 2010?",
+          "mentions": [
+            {
+              "entity": "movie_year",
+              "location": [
+                36,
+                40
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What are the most popular movies in 2022?",
+          "mentions": [
+            {
+              "entity": "movie_year",
+              "location": [
+                36,
+                40
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What movies have the highest IMDb in 1999?",
+          "mentions": [
+            {
+              "entity": "movie_year",
+              "location": [
+                37,
+                41
+              ]
+            }
+          ]
+        }
+      ],
+      "description": "give the most popular movies with specific genre, year, director, or actor (if any)."
+    },
+    {
+      "intent": "Most_Recent",
+      "examples": [
+        {
+          "text": "Can you give me the most recent movies for adults?"
+        },
+        {
+          "text": "Can you give me the recent movies?"
+        },
+        {
+          "text": "What are the latest action movies?"
+        },
+        {
+          "text": "What are the latest movies for kids?"
+        },
+        {
+          "text": "What are the most recent movies?"
+        }
+      ],
+      "description": "give most recent movies"
+    },
+    {
+      "intent": "Recommend_Movies",
+      "examples": [
+        {
+          "text": "Can you recommend some movies to watch?"
+        },
+        {
+          "text": "Please give me movie suggestions"
+        },
+        {
+          "text": "Recommend me some movies"
+        },
+        {
+          "text": "Tell me what movies I should watch"
+        },
+        {
+          "text": "What movies do you suggest I should watch?"
+        },
+        {
+          "text": "What’re good movies to watch?"
+        }
+      ],
+      "description": "Recommend movies"
+    },
+    {
+      "intent": "Reset",
+      "examples": [
+        {
+          "text": "Can I reset all variables?"
+        },
+        {
+          "text": "reset"
+        },
+        {
+          "text": "reset all history"
+        },
+        {
+          "text": "restart"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "movie_certificate",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "G",
+          "synonyms": [
+            "G certificate",
+            "G rate"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "NC-17",
+          "synonyms": [
+            "NC 17",
+            "NC-17 certificate",
+            "NC-17 rate"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "PG",
+          "synonyms": [
+            "PG certificate",
+            "PG rate"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "PG-13",
+          "synonyms": [
+            "PG 13",
+            "PG-13 certificate",
+            "PG-13 rate"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "R",
+          "synonyms": [
+            "R certificate",
+            "R rate"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "movie_feedback",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "rate_1",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "rate_2",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "rate_3",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "rate_4",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "rate_5",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": false
+    },
+    {
+      "entity": "movie_genre",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Action",
+          "synonyms": [
+            "actions",
+            "attacks",
+            "battle",
+            "battled",
+            "battles",
+            "battling",
+            "combat",
+            "combats",
+            "fighting",
+            "fightings",
+            "fights",
+            "firefight",
+            "firefights",
+            "gunfight"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Adventure",
+          "synonyms": [
+            "adventures",
+            "endure",
+            "journey",
+            "journeying",
+            "journeys",
+            "odyssey",
+            "quest",
+            "survive",
+            "travel",
+            "traveling",
+            "travels",
+            "trip",
+            "trips",
+            "visit",
+            "voyage"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Animation",
+          "synonyms": [
+            "animaniacs",
+            "animated",
+            "animations",
+            "anime",
+            "cartoon",
+            "cartoons",
+            "claymation",
+            "manga",
+            "rotoscope",
+            "rotoscoped",
+            "toon",
+            "toons",
+            "toonz"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Comedy",
+          "synonyms": [
+            "amusing",
+            "comedic",
+            "comedies",
+            "delightful",
+            "entertaining",
+            "funny",
+            "hilarious",
+            "hilariously",
+            "humorous",
+            "lighthearted"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Crime",
+          "synonyms": [
+            "death",
+            "justifiable",
+            "kill",
+            "offense",
+            "unconscionable",
+            "unlawful",
+            "violated",
+            "violating",
+            "violation",
+            "violative"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Documentary",
+          "synonyms": [
+            "biopic",
+            "docu"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Drama",
+          "synonyms": [
+            "cry",
+            "dramas",
+            "melodrama",
+            "melodramas",
+            "melodramatic",
+            "operas",
+            "operettas",
+            "soap opera"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Family",
+          "synonyms": [
+            "families",
+            "father",
+            "general",
+            "mother",
+            "parents"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Fantasy",
+          "synonyms": [
+            "fairytale",
+            "fantastical",
+            "metafiction",
+            "metafictional",
+            "novel",
+            "novelette",
+            "novels",
+            "reimagining",
+            "surrealistic"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "History",
+          "synonyms": [
+            "biographies",
+            "historical",
+            "histories",
+            "historiography",
+            "old story"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Horror",
+          "synonyms": [
+            "ghost",
+            "ghostly",
+            "ghosts",
+            "haunted",
+            "jump scare"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Music",
+          "synonyms": [
+            "dance",
+            "hip hop",
+            "jazz",
+            "musical",
+            "pop",
+            "singing",
+            "song",
+            "songs",
+            "tunes"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Mystery",
+          "synonyms": [
+            "mysteries",
+            "suspense"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Romance",
+          "synonyms": [
+            "affection",
+            "boyfriend",
+            "emotions",
+            "feelings",
+            "fiancé",
+            "girlfriend",
+            "love",
+            "lover",
+            "lovers",
+            "relationship",
+            "relationships",
+            "romances",
+            "romantic"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Science Fiction",
+          "synonyms": [
+            "fiction",
+            "fictions"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Thriller",
+          "synonyms": [
+            "thrillers"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "TV Movie",
+          "synonyms": [
+            "TV series",
+            "TV show"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "War",
+          "synonyms": [
+            "interwar",
+            "postwar",
+            "rebellion",
+            "wars",
+            "wwi",
+            "wwii"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Western",
+          "synonyms": [
+            "northwestern",
+            "southwestern",
+            "west"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "movie_name",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "365 Days: This Day",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "A Perfect Pairing",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "A Wednesday",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Battleship Potemkin",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Boyhood",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Call Me By Your Name",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Conviction",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Encanto",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Fifty Shade of Gray",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Grindelwald",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Harry Potter",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hidden",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Inception",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "In the Mood for Love",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Iron Man",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Jurassic World: Fallen Kingdom",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mayhem in the Multiverse",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ocean's 8",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Once Upon a Time in Hollywood",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Pirate of the Caribbean",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Pretty Woman",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Private Life",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Skyline",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Spider",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Superman",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "The 400 Blows",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "The Bad Guys",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "The Dark Knight",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "The Departed",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "The General",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "The Godfather",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "There Will Be Blood",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "The Twilight Saga",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "The Wizard of Oz",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Thor: Ragnarok",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Top Gun: Maverick",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Under the Skin",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": false
+    },
+    {
+      "entity": "movie_year",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "2000",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2001",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2002",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2003",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2004",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2005",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2006",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2007",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2008",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2009",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2010",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2011",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2012",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2013",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2014",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2015",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2016",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2017",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2018",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2019",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2020",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2021",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2022",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "yes_no",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "no",
+          "synonyms": [
+            "incoorrect",
+            "not",
+            "not correct"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": [
+            "accurate",
+            "correct",
+            "correctly",
+            "precise",
+            "yesss"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "webhooks": [
+    {
+      "url": "https://us-south.functions.appdomain.cloud/api/v1/web/kevin.chakornsiri.ug%40dartmouth.edu_dev/default/Movie%20Q%20and%20A",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_1_1653590052960",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1653509730805",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1653509730805",
+      "previous_sibling": "handler_9_1653509730805"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1653513889182",
+      "context": {
+        "movie_name": "@movie_name"
+      },
+      "conditions": "@movie_name",
+      "event_name": "input",
+      "dialog_node": "handler_10_1653513889202"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_14_1653512708382",
+      "context": {
+        "movie_genre": "@movie_genre"
+      },
+      "conditions": "@movie_genre",
+      "event_name": "input",
+      "dialog_node": "handler_15_1653512708382"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_14_1653512708382",
+      "event_name": "focus",
+      "dialog_node": "handler_16_1653512708382",
+      "previous_sibling": "handler_15_1653512708382"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_17_1653512708382",
+      "context": {
+        "movie_certification": "@movie_certificate"
+      },
+      "conditions": "@movie_certificate",
+      "event_name": "input",
+      "dialog_node": "handler_18_1653512708382"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_17_1653512708382",
+      "event_name": "focus",
+      "dialog_node": "handler_19_1653512708382",
+      "previous_sibling": "handler_18_1653512708382"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1653510031142",
+      "context": {
+        "movie_name": "@movie_name"
+      },
+      "conditions": "@movie_name",
+      "event_name": "input",
+      "dialog_node": "handler_2_1653510031156"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1653509730805",
+      "context": {
+        "movie_genre": "@movie_genre"
+      },
+      "conditions": "@movie_genre",
+      "event_name": "input",
+      "dialog_node": "handler_3_1653509730805"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1653509730805",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1653509730805",
+      "previous_sibling": "handler_3_1653509730805"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1653512719867",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1653512719869",
+      "previous_sibling": "handler_7_1653512719869"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1653593407376",
+      "context": {
+        "movie_name": "@movie_name"
+      },
+      "conditions": "@movie_name",
+      "event_name": "input",
+      "dialog_node": "handler_5_1653593407398"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tell me the name of the movie you like"
+              },
+              {
+                "text": "Please give me the name of the movie you like"
+              },
+              {
+                "text": "Please tell me one movie that you love"
+              },
+              {
+                "text": "Would you tell me the name of your favorite movie?"
+              },
+              {
+                "text": "What is your favorite movie? Please tell me the name of it"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_3_1653424521394",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1653424521408",
+      "previous_sibling": "handler_7_1653424521408"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1653510031142",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1653510031156",
+      "previous_sibling": "handler_2_1653510031156"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1653424521394",
+      "context": {
+        "movie_name": "@movie_name"
+      },
+      "conditions": "@movie_name",
+      "event_name": "input",
+      "dialog_node": "handler_7_1653424521408"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1653512719867",
+      "context": {
+        "movie_year": "@movie_year"
+      },
+      "conditions": "@movie_year",
+      "event_name": "input",
+      "dialog_node": "handler_7_1653512719869"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1653513889182",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1653513889202",
+      "previous_sibling": "handler_10_1653513889202"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "??"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_6_1653593407376",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1653593407398",
+      "previous_sibling": "handler_5_1653593407398"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We cannot catch that. Could you repeat that again?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_3_1653424521394",
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "event_name": "nomatch",
+      "dialog_node": "handler_9_1653424651212",
+      "previous_sibling": "handler_6_1653424521408"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1653509730805",
+      "context": {
+        "movie_certification": "@movie_certificate"
+      },
+      "conditions": "@movie_certificate",
+      "event_name": "input",
+      "dialog_node": "handler_9_1653509730805"
+    },
+    {
+      "type": "frame",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "movie_name": "$movie_name",
+            "question_id": 4
+          },
+          "result_variable": "webhook_result_4"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Information_Year",
+      "dialog_node": "node_10_1652999883430",
+      "previous_sibling": "node_1_1653509730803"
+    },
+    {
+      "type": "folder",
+      "conditions": "#Recommend_Movies",
+      "dialog_node": "node_10_1653424812572",
+      "previous_sibling": "node_4_1653510892982"
+    },
+    {
+      "type": "frame",
+      "output": {},
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "movie_genre": "$movie_genre",
+            "question_id": 3,
+            "movie_certification": "$movie_certification"
+          },
+          "result_variable": "webhook_result_3"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Most_Recent",
+      "dialog_node": "node_1_1653509730803",
+      "previous_sibling": "node_13_1653512708378"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "All values are reset."
+              },
+              {
+                "text": "Your history is reset."
+              },
+              {
+                "text": "The system is restarted."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ],
+        "deleted_variable": "<? context.remove('movie_name') ?> <? context.remove('movie_genre') ?> <? context.remove('yes_no') ?> <? context.remove('movie_certificate') ?> < context.remove('movie_year') ?> < context.remove('webhook_result_2') ?> < context.remove('webhook_result_3') ?> < context.remove('webhook_result_4') ?> < context.remove('webhook_result_5') ?> < context.remove('webhook_result_1') ?>"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "Welcome"
+      },
+      "conditions": "#Reset",
+      "dialog_node": "node_1_1653590052960",
+      "previous_sibling": "node_3_1652999883576"
+    },
+    {
+      "type": "frame",
+      "output": {},
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "movie_year": "$movie_year",
+            "movie_genre": "$movie_genre",
+            "question_id": 2,
+            "movie_certification": "$movie_certification"
+          },
+          "result_variable": "webhook_result_2"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Most_Popular",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_13_1653512708378",
+      "previous_sibling": "node_10_1653424812572"
+    },
+    {
+      "type": "frame",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "movie_name": "$movie_name",
+            "question_id": 5
+          },
+          "result_variable": "webhook_result_5"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Information_Rating",
+      "dialog_node": "node_3_1652999883576",
+      "previous_sibling": "node_10_1652999883430"
+    },
+    {
+      "type": "standard",
+      "title": "Ask for Feedback",
+      "output": {
+        "generic": [
+          {
+            "title": "How do you rate the list out of 5?",
+            "options": [
+              {
+                "label": "1",
+                "value": {
+                  "input": {
+                    "text": "rate_1"
+                  }
+                }
+              },
+              {
+                "label": "2",
+                "value": {
+                  "input": {
+                    "text": "rate_2"
+                  }
+                }
+              },
+              {
+                "label": "3",
+                "value": {
+                  "input": {
+                    "text": "rate_3"
+                  }
+                }
+              },
+              {
+                "label": "4",
+                "value": {
+                  "input": {
+                    "text": "rate_4"
+                  }
+                }
+              },
+              {
+                "label": "5",
+                "value": {
+                  "input": {
+                    "text": "rate_5"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1653424812572",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_9_1653425718712"
+      },
+      "dialog_node": "node_4_1653425492420",
+      "previous_sibling": "node_5_1653424836424"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi, I am your smart movie assistant. Nice to meet you!"
+              },
+              {
+                "text": "Hello! Thank you for your interest in our system. I will be your assistant for today!"
+              },
+              {
+                "text": "Welcome to smart movie recommendations. I will be your assistant today :)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Greetings",
+      "dialog_node": "node_4_1653510892982",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "frame",
+      "title": "Recommend / Try again",
+      "parent": "node_10_1653424812572",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "movie_name": "$movie_name",
+            "question_id": 1
+          },
+          "result_variable": "webhook_result_1"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@yes_no",
+      "dialog_node": "node_5_1653424836424",
+      "previous_sibling": "node_8_1652999844510"
+    },
+    {
+      "type": "frame",
+      "title": "Collect Favorite Movie",
+      "parent": "node_10_1653424812572",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "movie_name": "$movie_name",
+            "question_id": 5
+          },
+          "result_variable": "webhook_result_0"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_5_1653424836424"
+      },
+      "conditions": "#Recommend_Movies",
+      "dialog_node": "node_8_1652999844510"
+    },
+    {
+      "type": "standard",
+      "title": "Thank you",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thank you for rating us. I hope you have a great day!"
+              },
+              {
+                "text": "Thank you! enjoy your movies!"
+              },
+              {
+                "text": "I hope you enjoy the movies. We hope to see you again!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1653424812572",
+      "conditions": "@movie_feedback",
+      "dialog_node": "node_9_1653425718712",
+      "previous_sibling": "node_4_1653425492420"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here are the most recent $movie_certificate $movie_genre movies for you\n\n<? $webhook_result_3.results.get(0).original_title ?>, <? $webhook_result_3.results.get(0).release_date.reformatDateTime('Y') ?>\n<? $webhook_result_3.results.get(1).original_title ?>, <? $webhook_result_3.results.get(1).release_date.reformatDateTime('Y') ?>\n<? $webhook_result_3.results.get(2).original_title ?>, <? $webhook_result_3.results.get(2).release_date.reformatDateTime('Y') ?>\n<? $webhook_result_3.results.get(3).original_title ?>, <? $webhook_result_3.results.get(3).release_date.reformatDateTime('Y') ?>\n<? $webhook_result_3.results.get(4).original_title ?>, <? $webhook_result_3.results.get(4).release_date.reformatDateTime('Y') ?>"
+              },
+              {
+                "text": "The list below is the most recent $movie_certificate $movie_year $movie_genre movies for you\n\n<? $webhook_result_3.results.get(0).original_title ?>, <? $webhook_result_3.results.get(0).release_date.reformatDateTime('Y') ?>\n<? $webhook_result_3.results.get(1).original_title ?>, <? $webhook_result_3.results.get(1).release_date.reformatDateTime('Y') ?>\n<? $webhook_result_3.results.get(2).original_title ?>, <? $webhook_result_3.results.get(2).release_date.reformatDateTime('Y') ?>\n<? $webhook_result_3.results.get(3).original_title ?>, <? $webhook_result_3.results.get(3).release_date.reformatDateTime('Y') ?>\n<? $webhook_result_3.results.get(4).original_title ?>, <? $webhook_result_3.results.get(4).release_date.reformatDateTime('Y') ?>"
+              },
+              {
+                "text": "These most recent $movie_certificate $movie_year $movie_genre movies are for you!\n\n<? $webhook_result_3.results.get(0).original_title ?>, <? $webhook_result_3.results.get(0).release_date.reformatDateTime('Y') ?>\n<? $webhook_result_3.results.get(1).original_title ?>, <? $webhook_result_3.results.get(1).release_date.reformatDateTime('Y') ?>\n<? $webhook_result_3.results.get(2).original_title ?>, <? $webhook_result_3.results.get(2).release_date.reformatDateTime('Y') ?>\n<? $webhook_result_3.results.get(3).original_title ?>, <? $webhook_result_3.results.get(3).release_date.reformatDateTime('Y') ?>\n<? $webhook_result_3.results.get(4).original_title ?>, <? $webhook_result_3.results.get(4).release_date.reformatDateTime('Y') ?>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1653509730803",
+      "conditions": "$webhook_result_3",
+      "dialog_node": "response_11_1653509730805"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Sorry, we cannot find the most recent movies you want. Could you repeat the request again?",
+            "I didn't catch that. Would you mind telling me again?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1653509730803",
+      "conditions": "anything_else",
+      "dialog_node": "response_12_1653509730805",
+      "previous_sibling": "response_11_1653509730805"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here are the most popular $movie_certificate $movie_year $movie_genre movies for you\n\n<? $webhook_result_2.results.get(0).original_title ?>, <? $webhook_result_2.results.get(0).release_date.reformatDateTime('Y') ?>\n<? $webhook_result_2.results.get(1).original_title ?>, <? $webhook_result_2.results.get(1).release_date.reformatDateTime('Y') ?>\n<? $webhook_result_2.results.get(2).original_title ?>, <? $webhook_result_2.results.get(2).release_date.reformatDateTime('Y') ?>\n<? $webhook_result_2.results.get(3).original_title ?>, <? $webhook_result_2.results.get(3).release_date.reformatDateTime('Y') ?>\n<? $webhook_result_2.results.get(4).original_title ?>, <? $webhook_result_2.results.get(4).release_date.reformatDateTime('Y') ?>"
+              },
+              {
+                "text": "The list below is the most popular $movie_certificate $movie_year $movie_genre movies for you\n\n<? $webhook_result_2.results.get(0).original_title ?>, <? $webhook_result_2.results.get(0).release_date.reformatDateTime('Y') ?>\n<? $webhook_result_2.results.get(1).original_title ?>, <? $webhook_result_2.results.get(1).release_date.reformatDateTime('Y') ?>\n<? $webhook_result_2.results.get(2).original_title ?>, <? $webhook_result_2.results.get(2).release_date.reformatDateTime('Y') ?>\n<? $webhook_result_2.results.get(3).original_title ?>, <? $webhook_result_2.results.get(3).release_date.reformatDateTime('Y') ?>\n<? $webhook_result_2.results.get(4).original_title ?>, <? $webhook_result_2.results.get(4).release_date.reformatDateTime('Y') ?>"
+              },
+              {
+                "text": "These most popular $movie_certificate $movie_year $movie_genre movies are for you!\n\n<? $webhook_result_2.results.get(0).original_title ?>, <? $webhook_result_2.results.get(0).release_date.reformatDateTime('Y') ?>\n<? $webhook_result_2.results.get(1).original_title ?>, <? $webhook_result_2.results.get(1).release_date.reformatDateTime('Y') ?>\n<? $webhook_result_2.results.get(2).original_title ?>, <? $webhook_result_2.results.get(2).release_date.reformatDateTime('Y') ?>\n<? $webhook_result_2.results.get(3).original_title ?>, <? $webhook_result_2.results.get(3).release_date.reformatDateTime('Y') ?>\n<? $webhook_result_2.results.get(4).original_title ?>, <? $webhook_result_2.results.get(4).release_date.reformatDateTime('Y') ?>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_13_1653512708378",
+      "conditions": "$webhook_result_2",
+      "dialog_node": "response_20_1653512708382"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Sorry, we cannot find the most popular movies you want. Could you repeat the request again?",
+            "I didn't catch that. Would you mind telling me again?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_13_1653512708378",
+      "conditions": "anything_else",
+      "dialog_node": "response_21_1653512708382",
+      "previous_sibling": "response_20_1653512708382"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "<? $webhook_result_4.results.get(0).original_title ?> was released in <? $webhook_result_4.results.get(0).release_date.reformatDateTime('Y') ?>",
+            "<? $webhook_result_4.results.get(0).release_date.reformatDateTime('Y') ?>",
+            "<? $webhook_result_4.results.get(0).original_title ?> came out in <? $webhook_result_4.results.get(0).release_date.reformatDateTime('Y') ?>"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_10_1652999883430",
+      "conditions": "$webhook_result_4",
+      "dialog_node": "response_2_1653510045247"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Please enter your favorite movie again.",
+            "Tell me the name of the movie you like again",
+            "Please tell me your favorite movie again"
+          ],
+          "selection_policy": "sequential"
+        },
+        "deleted_variable": "<? context.remove('movie_name') ?> <? context.remove('movie_genre') ?> <? context.remove('yes_no') ?> <? context.remove('movie_certificate') ?> < context.remove('movie_year') ?> < context.remove('webhook_result_2') ?> < context.remove('webhook_result_3') ?> < context.remove('webhook_result_4') ?> < context.remove('webhook_result_5') ?> < context.remove('webhook_result_1') ?>"
+      },
+      "parent": "node_5_1653424836424",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_8_1652999844510"
+      },
+      "conditions": "@yes_no:no",
+      "dialog_node": "response_2_1653592360539",
+      "previous_sibling": "response_3_1653592360029"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Here are the recommended movies for you!\n\n<? $webhook_result_1.predictions.get(0) ?> \n<? $webhook_result_1.predictions.get(1) ?> \n<? $webhook_result_1.predictions.get(2) ?> \n<? $webhook_result_1.predictions.get(3) ?> \n<? $webhook_result_1.predictions.get(4) ?>",
+            "The list below are the recommended movies for you!\n\n<? $webhook_result_1.predictions.get(0) ?> \n<? $webhook_result_1.predictions.get(1) ?> \n<? $webhook_result_1.predictions.get(2) ?> \n<? $webhook_result_1.predictions.get(3) ?> \n<? $webhook_result_1.predictions.get(4) ?>",
+            "These movies are for you!\n\n<? $webhook_result_1.predictions.get(0) ?> \n<? $webhook_result_1.predictions.get(1) ?> \n<? $webhook_result_1.predictions.get(2) ?> \n<? $webhook_result_1.predictions.get(3) ?> \n<? $webhook_result_1.predictions.get(4) ?>"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "parent": "node_5_1653424836424",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1653425492420"
+      },
+      "conditions": "$webhook_result_1 && @yes_no:yes",
+      "dialog_node": "response_3_1653592360029",
+      "previous_sibling": "slot_6_1653593407376"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "<? $webhook_result_5.results.get(0).original_title ?> has score <? $webhook_result_5.results.get(0).vote_average ?> out of 10.",
+            "<? $webhook_result_5.results.get(0).original_title ?> was rated <? $webhook_result_5.results.get(0).vote_average ?> out of 10."
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "parent": "node_3_1652999883576",
+      "conditions": "$webhook_result_5",
+      "dialog_node": "response_6_1653513888698",
+      "previous_sibling": "slot_8_1653513889182"
+    },
+    {
+      "type": "response_condition",
+      "parent": "node_3_1652999883576",
+      "conditions": "anything_else",
+      "dialog_node": "response_6_1653513890103",
+      "previous_sibling": "response_6_1653513888698"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            ""
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_10_1652999883430",
+      "conditions": "anything_else",
+      "dialog_node": "response_7_1653510046288",
+      "previous_sibling": "response_2_1653510045247"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Your favorite movie is <? $webhook_result_0.results.get(0).original_title ?>, <? $webhook_result_0.results.get(0).release_date.reformatDateTime('Y') ?>. Is that correct?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1652999844510",
+      "conditions": "$webhook_result_0",
+      "dialog_node": "response_9_1653592889700"
+    },
+    {
+      "type": "slot",
+      "parent": "node_10_1652999883430",
+      "variable": "$movie_name",
+      "dialog_node": "slot_1_1653510031142",
+      "previous_sibling": "response_7_1653510046288"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_13_1653512708378",
+      "variable": "$movie_genre",
+      "dialog_node": "slot_14_1653512708382",
+      "previous_sibling": "response_21_1653512708382"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_13_1653512708378",
+      "variable": "$movie_certification",
+      "dialog_node": "slot_17_1653512708382",
+      "previous_sibling": "slot_14_1653512708382"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1653509730803",
+      "variable": "$movie_genre",
+      "dialog_node": "slot_2_1653509730805",
+      "previous_sibling": "response_12_1653509730805"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_8_1652999844510",
+      "variable": "$movie_name",
+      "dialog_node": "slot_3_1653424521394",
+      "previous_sibling": "response_9_1653592889700"
+    },
+    {
+      "type": "slot",
+      "parent": "node_13_1653512708378",
+      "variable": "$movie_year",
+      "dialog_node": "slot_4_1653512719867",
+      "previous_sibling": "slot_17_1653512708382"
+    },
+    {
+      "type": "slot",
+      "parent": "node_5_1653424836424",
+      "variable": "$movie_name",
+      "dialog_node": "slot_6_1653593407376"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1653509730803",
+      "variable": "$movie_certification",
+      "dialog_node": "slot_8_1653509730805",
+      "previous_sibling": "slot_2_1653509730805"
+    },
+    {
+      "type": "slot",
+      "parent": "node_3_1652999883576",
+      "variable": "$movie_name",
+      "dialog_node": "slot_8_1653513889182"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello. How can I help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "intent_classification": {
+      "training_backend_version": "v2"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "Smart Movie Chatbot",
+  "language": "en",
+  "description": "A chatbot that can recommend movies based on a customer's favorite movie."
+}
