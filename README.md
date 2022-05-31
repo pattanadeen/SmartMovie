@@ -2,11 +2,6 @@
 
 This README will show how each module mentioned in the report can be built and tested.
 
-The Smart Movie Chatbot have the following architectures:
-
-- User Interface: Facebook Messenger is the main user interface for interacting with the chatbot. Users can ask questions about movies by messaging to the Facebook page called "Smart Movie Recommendations". Facebook Messenger is connect to
-- IBM Cloud Functions:
-
 ## User Interface
 
 Facebook Messenger is integrated with IBM Watson Assistant. This requires the developer to have a Meta Developer account. The IBM Watson Assistant's exported skill file can be found [here](./IBM%20Cloud/Smart-Movie-Chatbot-dialog.json).
